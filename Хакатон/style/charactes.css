@@ -1,0 +1,188 @@
+/* Общие параметры */
+* {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background-image: url(../img/phone/qwerty.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+section {
+  background-color: #0a0a0a;
+  color: #bfae99;
+}
+
+/* Параметры навигационной панели */
+
+.background-img {
+  background-image: url(../img/nav/814234-interstellar-wallpaper.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.nav-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-div-a-2 {
+  padding: 35px;
+  text-decoration-line: none;
+  color: black;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.nav-div-a-1,
+.nav-div-a-3 {
+  padding: 35px;
+  text-decoration-line: none;
+  color: rgb(255, 255, 255);
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.nav-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 80px;
+  padding-bottom: 0px;
+  margin-bottom: 0;
+}
+
+.audio-onclick {
+  border: none;
+  border-radius: 35px;
+  width: 70px;
+  font-size: 10px;
+  height: 70px;
+  background-color: #000000;
+  color: #ffffff;
+  margin-bottom: 0px;
+  margin-left: 30px;
+  transition: 0.3s;
+}
+
+.audio-onclick:hover {
+  color: #000;
+  transition: 0.5s;
+  width: 50px;
+  height: 50px;
+  font-size: 6px;
+}
+
+/* Параметры для body */
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  margin: 100px;
+  /* border: none !important; */
+  text-decoration-line: none;
+  font-size: 13px;
+}
+
+.card-body,
+.card-body a,
+.card-body h5,
+.card-body p,
+.card-body ul li {
+  text-decoration-line: none;
+  justify-content: center;
+  background-color: #000318;
+  color: #fff;
+}
+
+.list-group-item {
+  border: 2px solid #bfae99 !important;
+}
+
+.card-body a {
+  margin-left: 35px;
+  color: #fff;
+}
+
+.card-body a:hover {
+  text-decoration-line: underline;
+}
+
+.card {
+  background-color: #000318;
+  color: #fff;
+  width: 19rem !important;
+}
+
+.card .list-group-item {
+  background-color: #000318 !important;
+  color: #fff !important;
+  border-color: #5e5e5e !important;
+}
+
+/* Параметры для footer */
+
+footer {
+  display: block;
+  color: #ffffff;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  background-image: url(../img/phone/img3.akspic.ru-noch-nebo-atmosfera-mlechnyj_put-nochnoe_nebo-3967x3872.jpg);
+  background-size: cover;
+  background-position: bottom;
+  border-top: 5px solid #000;
+}
+
+.footer-div {
+  display: flex;
+  justify-content: center;
+}
+.footer-div a {
+  text-decoration-line: none;
+}
+
+.footer-div h4,
+.footer-div h6 {
+  margin-bottom: 10px;
+}
+
+.movies {
+  display: block;
+  justify-content: center;
+  text-align: center;
+  margin: 30px;
+  padding-top: 0px;
+}
+
+.watch-move {
+  display: block;
+  justify-content: center;
+  text-align: center;
+  margin: 0px;
+  padding-top: 30px;
+}
+
+.credits-move {
+  display: block;
+  text-align: center;
+  padding-top: 35px;
+  margin-right: 20px;
+}

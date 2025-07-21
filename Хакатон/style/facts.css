@@ -1,0 +1,189 @@
+/* Общие параметры */
+* {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+section {
+  background-color: #0a0a0a;
+  color: #bfae99;
+}
+
+/* Параметры навигационной панели */
+
+.background-img {
+  background-image: url(../img/nav/814234-interstellar-wallpaper.jpg);
+  background-size: cover;
+  background-position: center;
+  border-bottom: 15px solid #000;
+}
+
+.nav-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-div-a-2 {
+  padding: 35px;
+  text-decoration-line: none;
+  color: black;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.nav-div-a-1,
+.nav-div-a-3 {
+  padding: 35px;
+  text-decoration-line: none;
+  color: rgb(255, 255, 255);
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.nav-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 80px;
+  padding-bottom: 0px;
+  margin-bottom: 0;
+}
+
+.audio-onclick {
+  border: none;
+  border-radius: 35px;
+  width: 70px;
+  font-size: 10px;
+  height: 70px;
+  background-color: #000000;
+  color: #ffffff;
+  margin-bottom: 0px;
+  margin-left: 30px;
+  transition: 0.3s;
+}
+
+.audio-onclick:hover {
+  color: #000;
+  transition: 0.5s;
+  width: 50px;
+  height: 50px;
+  font-size: 6px;
+}
+
+/* Параметры для body */
+
+details {
+  color: #ffffff;
+  background-color: #030931;
+}
+
+details p a {
+  color: #fff;
+}
+
+.section-facts {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  color: #ffffff;
+  background-color: #030931;
+  margin: 0 auto;
+  width: 80%;
+  max-width: 800px;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  border-radius: 20px 20px 0 0;
+}
+
+.section-theory {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  color: #ffffff;
+  background-color: #030931;
+  margin: 0 auto;
+  width: 80%;
+  max-width: 800px;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  border-radius: 0 0 20px 20px;
+}
+
+.page-facts {
+  display: block;
+  border-radius: 20px;
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+
+.main {
+  background-image: url(../img/phone/img3.akspic.ru-noch-nebo-atmosfera-mlechnyj_put-nochnoe_nebo-3967x3872.jpg);
+  background-size: cover;
+  background-position: top;
+}
+
+/* Параметры для footer */
+
+footer {
+  display: block;
+  color: #ffffff;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  background-image: url(../img/phone/img3.akspic.ru-noch-nebo-atmosfera-mlechnyj_put-nochnoe_nebo-3967x3872.jpg);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.footer-div {
+  display: flex;
+  justify-content: center;
+}
+.footer-div a {
+  text-decoration-line: none;
+}
+
+.footer-div h4 {
+  margin-bottom: 10px;
+}
+.footer-div h6 {
+  margin-bottom: 10px;
+}
+
+.movies {
+  display: block;
+  justify-content: center;
+  text-align: center;
+  margin: 30px;
+  padding-top: 0px;
+}
+
+.watch-move {
+  display: block;
+  justify-content: center;
+  text-align: center;
+  margin: 0px;
+  padding-top: 30px;
+}
+
+.credits-move {
+  display: block;
+  text-align: center;
+  padding-top: 35px;
+  margin-right: 20px;
+}

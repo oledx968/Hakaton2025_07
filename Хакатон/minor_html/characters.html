@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style/charactes.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,700&display=swap");
+    </style>
+    <title>Персонажи</title>
+  </head>
+  <body>
+    <div class="background-img">
+      <nav>
+        <div class="nav-div">
+          <a class="nav-div-a-1" href="../minor_html/trailer.html">Трейлер</a>
+          <a class="nav-div-a-2" href="../main.html">Главная</a>
+          <a class="nav-div-a-3" href="../minor_html/facts.html"
+            >Теории и факты</a
+          >
+        </div>
+        <audio id="bg-audio" loop hidden>
+          <source
+            src="../audio/Hans_Zimmer_-_Interstellar_Theme_Song_71652021.mp3"
+            type="audio/mpeg"
+          />
+        </audio>
+        <script>
+          function playMusic() {
+            document.getElementById("bg-audio").play();
+            document.getElementById("music-btn").style.display = "none";
+          }
+        </script>
+      </nav>
+      <div class="nav-bottom">
+        <p class="main-p">Interstellar</p>
+        <button class="audio-onclick" id="music-btn" onclick="playMusic()">
+          Включить мелодию
+        </button>
+      </div>
+    </div>
+    <div class="cards">
+      <div class="card">
+        <img
+          src="../img/actors/Matthew_McConaughey_2019_1.jpg"
+          class="card-img-top"
+          alt="Мэттью Макконахи"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Мэттью Макконахи</h5>
+          <p class="card-text">
+            Американский актёр, исполнивший роль Купера — пилота миссии
+            Endurance и бывшего инженера NASA.
+          </p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Купер</li>
+          <li class="list-group-item">
+            Главный герой, пилот космического корабля, отец Мёрф
+          </li>
+          <li class="list-group-item">4 ноября 1969 – 54 года</li>
+        </ul>
+        <div class="card-body">
+          <a
+            href="https://ru.wikipedia.org/wiki/Макконахи,_Мэттью"
+            class="card-link"
+            >Википедия</a
+          >
+          <a
+            href="https://www.instagram.com/officiallymcconaughey/"
+            class="card-link"
+            >Instagram</a
+          >
+        </div>
+      </div>
+      <div class="card">
+        <img
+          src="../img/actors/Энн Хэтэуэй2.jpg"
+          class="card-img-top"
+          alt="Энн Хэтэуэй"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Энн Хэтэуэй</h5>
+          <p class="card-text">
+            Американская актриса, исполнившая роль учёного NASA — Амелии Бренд,
+            участвующей в космической миссии.
+          </p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Амелия Бренд</li>
+          <li class="list-group-item">
+            Учёный, астронавт NASA, правая рука главного героя
+          </li>
+          <li class="list-group-item">12 ноября 1982 – 42 года</li>
+        </ul>
+        <div class="card-body">
+          <a href="https://ru.wikipedia.org/wiki/Хэтэуэй,_Энн" class="card-link"
+            >Википедия</a
+          >
+          <a href="https://www.instagram.com/annehathaway/" class="card-link"
+            >Instagram</a
+          >
+        </div>
+      </div>
+      <div class="card">
+        <img
+          src="../img/actors/Wes_Bentley_9 original.jpg"
+          class="card-img-top"
+          alt="Уэс Бентли"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Уэс Бентли</h5>
+          <p class="card-text">
+            Американский актёр, сыгравший астронавта Дойла, участника миссии на
+            первую планету Миллер.
+          </p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Дойл</li>
+          <li class="list-group-item">
+            Астронавт, участник экспедиции, погибший на Миллере
+          </li>
+          <li class="list-group-item">4 сентября 1978 – 45 лет</li>
+        </ul>
+        <div class="card-body">
+          <a href="https://ru.wikipedia.org/wiki/Бентли,_Уэс" class="card-link"
+            >Википедия</a
+          >
+          <a href="https://www.facebook.com/WesBentleytheactor/?locale=fr_CA"
+            >Facebook</a
+          >
+        </div>
+      </div>
+      <div class="card">
+        <img
+          src="../img/actors/Sir Michael original 4.jpg"
+          class="card-img-top"
+          alt="Майкл Кейн"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Майкл Кейн</h5>
+          <p class="card-text">
+            Британский актёр, сыгравший профессора Бранда — наставника Купера.
+            Отец Амлелии Бренда и главного учёного NASA.
+          </p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Профессор Бранд</li>
+          <li class="list-group-item">Главный учёный проекта NASA</li>
+          <li class="list-group-item">14 марта 1933 – 91 год</li>
+        </ul>
+        <div class="card-body">
+          <a href="https://ru.wikipedia.org/wiki/Кейн,_Майкл" class="card-link"
+            >Википедия</a
+          >
+          <a
+            href="https://www.instagram.com/daily_michael_caine/"
+            class="card-link"
+            >Instagram</a
+          >
+        </div>
+      </div>
+      <div class="card">
+        <img
+          src="../img/actors/Фой Маккензи 6.jpg"
+          class="card-img-top"
+          alt="Маккензи Фой"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Маккензи Фой</h5>
+          <p class="card-text">
+            Американская актриса, сыграла юную Мёрф — умную, чувствительную и
+            решительную дочь.
+          </p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Мёрф Купер (в детстве)</li>
+          <li class="list-group-item">Дочь Купера в юном возрасте</li>
+          <li class="list-group-item">10 ноября 2000 – 23 года</li>
+        </ul>
+        <div class="card-body">
+          <a
+            href="https://ru.wikipedia.org/wiki/Фой,_Маккензи"
+            class="card-link"
+            >Википедия</a
+          >
+          <a href="https://www.instagram.com/mackenziefoy/" class="card-link"
+            >Instagram</a
+          >
+        </div>
+      </div>
+      <div class="card">
+        <img
+          src="../img/actors/Честейн Джессика3.jpg"
+          class="card-img-top"
+          alt="Джессика Честейн"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Джессика Честейн</h5>
+          <p class="card-text">
+            Американская актриса, сыграла Мёрф — разгадала уравнение, спасла
+            человечество, ожидая любимого отца.
+          </p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Мёрф Купер</li>
+          <li class="list-group-item">Учёный, дочь главного героя</li>
+          <li class="list-group-item">24 марта 1977 – 47 лет</li>
+        </ul>
+        <div class="card-body">
+          <a
+            href="https://ru.wikipedia.org/wiki/Честейн,_Джессика"
+            class="card-link"
+            >Википедия</a
+          >
+          <a href="https://www.instagram.com/jessicachastain/" class="card-link"
+            >Instagram</a
+          >
+        </div>
+      </div>
+      <div class="card">
+        <img
+          src="../img/actors/Эллен Берстлин 11.jpg"
+          class="card-img-top"
+          alt="Эллен Берстин"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Эллен Берстин</h5>
+          <p class="card-text">
+            Американская актриса, исполнившая пожилую версию Мёрфи Купер —
+            учёную, которая завершила начатое.
+          </p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Мёрфи Купер (в старости)</li>
+          <li class="list-group-item">Учёный NASA</li>
+          <li class="list-group-item">7 декабря 1932 — 90 лет</li>
+        </ul>
+        <div class="card-body">
+          <a
+            href="https://ru.wikipedia.org/wiki/Берстин,_Эллен"
+            class="card-link"
+            >Википедия</a
+          >
+          <a href="https://x.com/BurstynEllen">Twitter</a>
+        </div>
+      </div>
+      <div class="card">
+        <img
+          src="../img/actors/Тимоти Шаламе 7.jpg"
+          class="card-img-top"
+          alt="Тимоти Шаламе"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Тимоти Шаламе</h5>
+          <p class="card-text">
+            Американский актёр, исполнивший роль молодого Тома Купера, сына
+            Купера, любопытного и наблюдательного мальчика
+          </p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Том Купер (в детстве)</li>
+          <li class="list-group-item">Сын Купера в детстве</li>
+          <li class="list-group-item">27 декабря 1995 – 28 лет</li>
+        </ul>
+        <div class="card-body">
+          <a
+            href="https://ru.wikipedia.org/wiki/Шаламе,_Тимоти"
+            class="card-link"
+            >Википедия</a
+          >
+          <a href="https://www.instagram.com/tchalamet/" class="card-link"
+            >Instagram</a
+          >
+        </div>
+      </div>
+      <div class="card">
+        <img
+          src="../img/actors/Аффлек Кейкси 8 original.jpg"
+          class="card-img-top"
+          alt="Кейси Аффлек"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Кейси Аффлек</h5>
+          <p class="card-text">
+            Американский актёр, исполнивший роль взрослого Тома Купера, сына
+            Купера, фермера, охваченного отчаянием.
+          </p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Том Купер (взрослый)</li>
+          <li class="list-group-item">Сын Купера, фермер</li>
+          <li class="list-group-item">12 августа 1975 – 49 лет</li>
+        </ul>
+        <div class="card-body">
+          <a
+            href="https://ru.wikipedia.org/wiki/Аффлек,_Кейси"
+            class="card-link"
+            >Википедия</a
+          >
+          <a
+            href="https://www.instagram.com/caseyaffleck/?hl=ru"
+            class="card-link"
+            >Instagram
+          </a>
+        </div>
+      </div>
+      <div class="card">
+        <img
+          src="../img/actors/John_Lithgow 12 original.jpg"
+          class="card-img-top"
+          alt="Джон Литгоу"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Джон Литгоу</h5>
+          <p class="card-text">
+            Американский актёр, исполнивший роль Дональда — деда главного героя
+            и заботливого дедушки Мёрфи и Тома.
+          </p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Дональд Купер</li>
+          <li class="list-group-item">Дед главного героя</li>
+          <li class="list-group-item">19 октября 1945 — 77 лет</li>
+        </ul>
+        <div class="card-body">
+          <a href="https://ru.wikipedia.org/wiki/Литгоу,_Джон" class="card-link"
+            >Википедия</a
+          >
+          <a href="https://www.instagram.com/jalithgow/?hl=ru">Instagram</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="../img/actors/5.jpg" class="card-img-top" alt="Мэтт Деймон" />
+        <div class="card-body">
+          <h5 class="card-title">Мэтт Деймон</h5>
+          <p class="card-text">
+            Американский актёр, исполнивший неожиданную роль доктора Манна —
+            выжившего астронавта на отдалённой планете.
+          </p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Доктор Манн</li>
+          <li class="list-group-item">Астронавт, лидер экспедиции</li>
+          <li class="list-group-item">8 октября 1970 – 53 года</li>
+        </ul>
+        <div class="card-body">
+          <a href="https://ru.wikipedia.org/wiki/Деймон,_Мэтт" class="card-link"
+            >Википедия</a
+          >
+          <a
+            href="https://www.instagram.com/matt_damon_official/"
+            class="card-link"
+            >Instagram
+          </a>
+        </div>
+      </div>
+      <div class="card">
+        <img
+          src="../img/actors/Topher_Grace_10.jpg"
+          class="card-img-top"
+          alt="Тофер Грейс"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Тофер Грейс</h5>
+          <p class="card-text">
+            Американский актёр, исполнивший роль инженера NASA Гетти,
+            поддерживающего Мёрф в её научных поисках.
+          </p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Гетти</li>
+          <li class="list-group-item">Помощник Мёрф в научной базе</li>
+          <li class="list-group-item">12 июля 1978, 46 лет</li>
+        </ul>
+        <div class="card-body">
+          <a href="https://ru.wikipedia.org/wiki/Грейс,_Тофер" class="card-link"
+            >Википедия</a
+          >
+          <a href="https://www.instagram.com/tophergrace/" class="card-link"
+            >Instagram</a
+          >
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="footer-div">
+        <div class="movies">
+          <h4>Другие фильмы режиссера</h4>
+          <h6>
+            <a
+              href="https://hdrezka.in/films/drama/54016-oppengeymer-2023-latest.html"
+              >Оппенгеймер(2023)</a
+            >
+          </h6>
+          <h6>
+            <a
+              href="https://hdrezka.in/films/fiction/192-temnyy-rycar-vozrozhdenie-legendy-2012-latest.html"
+              >Темный рыцарь: Возрождение легенды(2012)</a
+            >
+          </h6>
+          <h6>
+            <a href="https://hdrezka.in/films/action/770-nachalo-2010.html"
+              >Начало(2010)</a
+            >
+          </h6>
+          <h6>
+            <a
+              href="https://hdrezka.in/films/action/703-temnyy-rycar-2008-latest.html"
+              >Темный рыцарь(2008)</a
+            >
+          </h6>
+          <h6>
+            <a href="https://hdrezka.in/films/drama/795-prestizh-2006.html"
+              >Престиж(2006)</a
+            >
+          </h6>
+          <h6>
+            <a
+              href="https://hdrezka.in/films/action/695-betmen-nachalo-2005-latest.html"
+              >Бэтмен: Начало(2005)</a
+            >
+          </h6>
+        </div>
+        <div class="credits-move">
+          <h4>О нас</h4>
+          <h6>
+            Использованы образы и идеи <a href="https://www.nasa.gov/">NASA</a>
+          </h6>
+          <h6>
+            Консультации с учёными из
+            <a href="https://www.caltech.edu/">Caltech</a>
+          </h6>
+          <h6>
+            Проект вдохновлён фильмом <a href="#">«Интерстеллар» (2014)</a>
+          </h6>
+          <h6>
+            Научная база создана с участием физика
+            <a
+              href="https://ru.wikipedia.org/wiki/%D0%A2%D0%BE%D1%80%D0%BD,_%D0%9A%D0%B8%D0%BF"
+              >Кипа Торна</a
+            >
+          </h6>
+          <h6>
+            Поддержка от
+            <a href="https://www.warnerbros.com/movies">Warner Bros</a>.,<a
+              href="https://www.paramountpictures.com/"
+              >Paramount Pictures</a
+            >
+            и <a href="https://www.imax.com/ru/kz">IMAX</a>
+          </h6>
+          <h6>
+            Материалы частично основаны на образовательной кампании
+            <a href="https://www.google.com/">Google</a>
+          </h6>
+        </div>
+        <div class="watch-move">
+          <h4>Смотреть фильм через:</h4>
+          <h6>
+            <a
+              href="https://www.kinopoisk.ru/film/258687/?utm_referrer=www.yandex.kz"
+              >Кинопоиск.ru</a
+            >
+          </h6>
+          <h6>
+            <a
+              href="https://hdrezka.in/films/fiction/2259-interstellar-2014.html"
+              >HDRezka.in</a
+            >
+          </h6>
+          <h6>
+            <a href="https://rutube.ru/video/17465fc541700b94ebd5648423675100/"
+              >Rutube.ru</a
+            >
+          </h6>
+          <h6>
+            <a href="https://wink.ru/movies/interstellar-year-2014">Wink.ru</a>
+          </h6>
+          <h6><a href="https://okko.tv/movie/interstellar">okko.tv</a></h6>
+          <h6><a href="https://www.ivi.ru/watch/112372">Иви.ru</a></h6>
+        </div>
+      </div>
+      <p class="main-p">Interstellar</p>
+    </footer>
+  </body>
+</html>
